@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="/styles.css" rel="stylesheet" />
+    <title>Advanced Search</title>
+    <script src="/app.js" async></script>
+  </head>
+  <body>
+    <div class="adv-nav">
+      <picture>
+        <source
+          srcset="/images/google-logo-white.png"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img
+          class="adv-logo"
+          src="/images/google-logo-color.png"
+          alt="Google"
+        />
+      </picture>
+      <div class="nav">
+        <a class="link" href="/index.html">Google Search</a>
+        <a class="link" href="/image-search.html">Image Search</a>
+      </div>
+    </div>
+    <p class="adv-search">Advanced Search</p>
+    <form onsubmit="search(event)">
+      <div class="adv-form">
+        <label for="all">all these words:</label>
+        <input class="adv-txt" id="all" type="text" name="all" />
+        <label for="exact">this exact word or phrase:</label>
+        <input class="adv-txt" id="exact" type="text" name="exact" />
+        <label for="any">any of these words:</label>
+        <input class="adv-txt" id="any" type="text" name="any" />
+        <label for="none">none of these words:</label>
+        <input class="adv-txt" id="none" type="text" name="none" />
+        <div class="btn">
+          <input class="submit" type="submit" value="Google Advanced Search" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
