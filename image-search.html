@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="/styles.css" rel="stylesheet" />
+    <title>Image Search</title>
+    <script src="/app.js" async></script>
+  </head>
+  <body>
+    <div class="nav">
+      <a class="link" href="/index.html">Google Search</a>
+      <a class="link" href="/advanced-search.html">Advanced Search</a>
+    </div>
+    <div class="wrapper">
+      <picture>
+        <source
+          srcset="/images/google-logo-white.png"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img class="logo" src="/images/google-logo-color.png" alt="Google" />
+      </picture>
+    </div>
+    <form onsubmit="search(event)">
+      <div class="form wrapper">
+        <input class="txt" id="q" type="text" name="q" />
+        <div class="btn">
+          <input class="submit" type="submit" value="Google Image Search" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
