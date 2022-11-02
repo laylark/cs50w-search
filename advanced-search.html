@@ -22,9 +22,11 @@
         <a class="link" href="/image-search.html">Image Search</a>
       </div>
     </div>
-    <p class="adv-search">Advanced Search</p>
-    <form action="https://www.google.com/search">
-      <div class="adv-form">
+    <h1 class="adv-search">Advanced Search</h1>
+    <hr />
+    <form class="adv-form" action="https://www.google.com/search">
+      <h2 class="form-heading">Find pages with...</h2>
+      <div class="adv-fields">
         <label for="all">all these words:</label>
         <input class="adv-txt" id="all" type="text" name="as_q" />
         <label for="exact">this exact word or phrase:</label>
@@ -33,9 +35,9 @@
         <input class="adv-txt" id="any" type="text" name="as_oq" />
         <label for="none">none of these words:</label>
         <input class="adv-txt" id="none" type="text" name="as_eq" />
-        <div class="btn">
-          <input class="submit" type="submit" value="Google Advanced Search" />
-        </div>
+      </div>
+      <div class="btn-wrapper">
+        <input class="submit blue-btn" type="submit" value="Advanced Search" />
       </div>
     </form>
   </body>
