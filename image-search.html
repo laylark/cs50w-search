@@ -19,9 +19,10 @@
         <img class="logo" src="/images/google-logo-color.png" alt="Google" />
       </picture>
     </div>
-    <form onsubmit="search(event)">
+    <form action="https://www.google.com/search">
       <div class="form wrapper">
         <input class="txt" id="q" type="text" name="q" />
+        <input type="hidden" name="tbm" value="isch" />
         <div class="btn">
           <input class="submit" type="submit" value="Google Image Search" />
         </div>
