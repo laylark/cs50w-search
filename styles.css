@@ -85,6 +85,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
 }
+.btn {
+  padding-top: 1.5em;
+}
 .submit {
   background-color: #f8f9fa;
   border-radius: 0.4em;
