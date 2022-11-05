@@ -2,6 +2,8 @@ body {
   font-size: 1em;
   font-family: Roboto, arial, sans-serif;
   color: #202124;
+  -webkit-text-fill-color: #202124;
+  -webkit-opacity: 1;
 }
 
 .nav {
@@ -109,6 +111,8 @@ body {
   body {
     background: #202124;
     color: #e8eaed;
+    -webkit-text-fill-color: #e8eaed;
+    -webkit-opacity: 1;
   }
   .txt {
     background-color: transparent;
