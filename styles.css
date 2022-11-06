@@ -42,6 +42,8 @@ body {
 
 .adv-search {
   color: #d93025;
+  -webkit-text-fill-color: #d93025;
+  -webkit-opacity: 1;
   font-weight: normal;
   font-size: 1.2em;
   padding-left: 2.5rem;
@@ -101,6 +103,8 @@ body {
 .blue-btn {
   background-color: #488bf8;
   color: #e8eaed;
+  -webkit-text-fill-color: #e8eaed;
+  -webkit-opacity: 1;
   font-weight: bold;
 }
 .submit:hover {
