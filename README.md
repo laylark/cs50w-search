@@ -1,4 +1,4 @@
-# Search
+# [Search](https://laylark.github.io/cs50w-search/)
 
 This is my [first project](https://cs50.harvard.edu/web/2020/projects/0/search/) in the CS50’s Web Programming with Python and JavaScript course.
 
